@@ -8,7 +8,7 @@
 @define-color accent_yellow #f7c553;
 @define-color accent_green #8edb73;
 @define-color accent_red #ef5d67;
-@define-color border_subtle #ffffff55;
+@define-color border_subtle rgba(255, 255, 255, 0.33);
 
 #waybar {
   background-color: @waybarBg;
