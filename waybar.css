@@ -1,0 +1,52 @@
+@define-color background rgba(0, 0, 0, 0);
+@define-color waybarBg rgba(26, 27, 30, 0.4);
+@define-color foreground #eaeaef;
+@define-color surface #636e72;
+@define-color inactive #3a3a3c;
+
+/* Status accents — from the Onyx palette (matches terminals + gtk.css) */
+@define-color accent_yellow #f7c553;
+@define-color accent_green #8edb73;
+@define-color accent_red #ef5d67;
+@define-color border_subtle #ffffff55;
+
+#waybar {
+  background-color: @waybarBg;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: @accent_green;
+}
+
+#battery.warning:not(.charging) {
+  color: @accent_yellow;
+}
+
+#battery.critical:not(.charging) {
+  color: @accent_red;
+}
+
+#pulseaudio.muted {
+  color: @accent_red;
+}
+
+#network.disconnected {
+  color: @accent_red;
+}
+
+tooltip {
+  background-color: @waybarBg;
+  padding: 8px 12px;
+  border: 1px solid @border_subtle;
+}
+
+tooltip label {
+  color: @foreground;
+}
+
+#tray menu {
+  background-color: @waybarBg;
+  color: @foreground;
+  border: 1px solid @border_subtle;
+}
