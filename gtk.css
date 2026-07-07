@@ -1,4 +1,4 @@
-@define-color background     #1a1b1e90;
+@define-color background     rgba(26, 27, 30, 0.565);
 @define-color foreground     #eaeaef;
 @define-color black          #1a1b1e;
 @define-color red            #ef5d67;
