@@ -5,16 +5,16 @@ charcoal with translucent blurred surfaces, soft white gradient borders, a restr
 pastel terminal palette, watery Hyprland animations, and a consistent 4px radius
 throughout.
 
+![Onyx theme preview](preview.png)
+
 ## Install
 
 ```bash
-omarchy-theme-install https://github.com/luntta/omarchy-onyx-theme
-omarchy theme set Onyx
+omarchy theme install https://github.com/luntta/omarchy-onyx-theme
 ```
 
-## Screenshots
-
-_Coming soon._ Regenerate `preview.png` and add screenshots to reflect the current look.
+This clones and applies the theme. To switch back to it any time afterwards, run
+`omarchy theme set Onyx`.
 
 ## Credits
 
